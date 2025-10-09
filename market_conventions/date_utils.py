@@ -11,7 +11,6 @@ def end_of_month(date: datetime.date) -> bool:
     """
     Check if a given date is the end of the month.
     """
-    next_day = date + datetime.timedelta(days=1)
     if is_end_of_month(date):
         return date
     else:
